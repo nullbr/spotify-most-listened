@@ -4,7 +4,7 @@ const Song = ({ id, img, title, author, releaseDate, getSong, number }) => {
       <span className="number"># {number + 1}</span>
       <img src={img} alt="BLINDING LIGHTS" />
       <h2>{title}</h2>
-      <button onClick={() => getSong(id)}>Get Song</button>
+      {/* <button onClick={() => getSong(id)}>Get Song</button> */}
       <p>{author}</p>
       <span>{releaseDate}</span>
     </article>
